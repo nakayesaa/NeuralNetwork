@@ -55,7 +55,6 @@ class Linear : public Layer{
         inputNeuron = inputNumber;
         outputNeuron = outputNeuron;
         weight = assingWeight(ouputNumber, inputNumber);
-        // bias = biasInitializer(outputNum)
     }
     std::vector<double> forward(const std::vector<double> inputData) override{
         input = inputData;
